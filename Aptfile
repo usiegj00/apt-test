@@ -1,5 +1,6 @@
-libcairo2-dev
-libglib2.0-dev
+:repo:deb [signed-by=/usr/share/keyrings/ubuntu-archive-keyring.gpg] http://archive.ubuntu.com/ubuntu/ noble main universe restricted multiverse
+:repo:deb [signed-by=/usr/share/keyrings/ubuntu-archive-keyring.gpg] http://archive.ubuntu.com/ubuntu/ noble-updates main universe restricted multiverse
+:repo:deb [signed-by=/usr/share/keyrings/ubuntu-archive-keyring.gpg] http://archive.ubuntu.com/ubuntu/ noble-backports main universe restricted multiverse
 
 # These are all available as of 2024-10-04 from the above repos.
 # They are needed for popplar and extraction of text from PDFs.
@@ -17,4 +18,3 @@ tesseract-ocr
 tesseract-ocr-eng
 tesseract-ocr-jpn
 libarchive13
-
